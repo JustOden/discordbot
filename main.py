@@ -348,7 +348,7 @@ Can also translate replied messages.
 	else:
 		await ctx.reply(error_msg)
 
-#keep_alive()
+keep_alive()
 
 TOKEN = os.getenv("DISCORD_TOKEN")
 
