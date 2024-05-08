@@ -1,0 +1,5 @@
+discord.py
+googletrans==3.1.0a0
+python-dotenv
+jisho-api==0.1.8
+Flask
