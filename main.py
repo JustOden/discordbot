@@ -348,11 +348,10 @@ Can also translate replied messages.
 	else:
 		await ctx.reply(error_msg)
 
-keep_alive()
-
 TOKEN = os.getenv("DISCORD_TOKEN")
 
 if TOKEN:
+    keep_alive()
     bot.run(TOKEN)
 else:
     print("No token")
